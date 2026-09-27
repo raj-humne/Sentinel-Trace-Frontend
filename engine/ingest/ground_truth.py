@@ -89,7 +89,7 @@ def _main() -> int:
 
     root = Path(__file__).resolve().parents[2]
     raw_dir = root / "data" / "raw" / "r4.2"
-    answers_dir = root / "data" / "raw" / "answers" / "answers"
+    answers_dir = root / "data" / "raw" / "answers"
     out_path = root / "data" / "artifacts" / "dataset_profile.json"
 
     cfg = load_config(str(root / "config"))
